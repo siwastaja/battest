@@ -1,0 +1,10 @@
+0 errors cleared
+t=0 V=3.33642 A=0.00764095 W=0.0254934 mAh_cumul=0 Wh_cumul=0 
+t=2 V=3.33774 A=0.00765437 W=0.0255483 mAh_cumul=0.00425243 Wh_cumul=1.41935e-05 
+t=3 V=3.35006 A=0.0960404 W=0.321741 mAh_cumul=0.0309303 Wh_cumul=0.000103566 
+END
+
+0 errors cleared
+t=0 V=3.40509 A=0.007812 W=0.0266006 mAh_cumul=0 Wh_cumul=0 
+t=2 V=3.4051 A=0.00780189 W=0.0265662 mAh_cumul=0.00433438 Wh_cumul=1.4759e-05 
+t=3 V=3.35551 

@@ -1,0 +1,15 @@
+/dev/ttyUSB0	./csv	./log	;	120	10	10	10	3.15	4.05	0.85	1.3	2.3	4.3
+device       	csv_dir	log_dir	csv_dlm	r_int   r_t1    r_t2    r_t3    r_low   r_hi	r_lo_m	r_hi_m	vmin	vmax
+
+Use tabs to separate values.
+device = serial port handle
+csv_dir = directory to put csv files into
+log_dir = directory to put log files into
+csv_dlm = csv delimiter
+r_int = resistance measurement interval in seconds
+r_t1, r_t2, r_t3 = resistance measurement cycle lenghts in seconds: lo curr, hi curr, lo curr
+r_low = low voltage limit to inhibit the start of resistance measurement (discharge)
+r_hi  = high voltage limit to inhibit the start of resistance measurement (charge)
+r_lo_m, r_hi_m = current multipliers for (t1,t3) and t2, respectively. It's recommended that
+                 2*r_lo_m + 1*r_hi_m = 3, to get the average current set from command line.
+vmin, vmax = if voltage outside these limits, program aborts and shuts output off.
